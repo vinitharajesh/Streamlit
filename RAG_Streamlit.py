@@ -21,7 +21,7 @@ if uploaded_file is not None:
     with open("temp_file", "wb") as f:
         f.write(uploaded_file.read())
 
-    file_path = "Sreamlite/Nature.txt"
+    file_path = "Streamlit/Nature.txt"
 
     # -------------------------
     # Load file
